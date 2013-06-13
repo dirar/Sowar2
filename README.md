@@ -7,7 +7,6 @@ Sowar2 creates an images rotator that can be easily customized
 
 How to use
 ----------
-
 <ol>
 	<li>
 		Create a main conatiner and a wrapper, inside them create the rotator elements conatiners
