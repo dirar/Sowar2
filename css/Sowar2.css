@@ -1,0 +1,109 @@
+#image-rotator-container
+{
+    width: 950px;
+    position: relative;
+    height: 320px;
+    margin: auto;
+    overflow: hidden;
+    border: solid 5px #FFFFFF;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
+}
+#sowar2-left-margin
+{
+    left: 0px;
+    border-right: solid 5px #FFFFFF;
+}
+#sowar2-right-margin
+{
+    right: 0px;
+    border-left: solid 5px #FFFFFF;
+}
+.sowar2-margins
+{
+    position: absolute;
+    background: url('../img/slider_margins_bg.gif');
+    width: 111px;
+    height: 320px;
+    z-index: 100;
+}
+#sowar2-arrows-container
+{
+    position: absolute;
+    right: 115px;
+    bottom: 0;
+    z-index: 101; 
+}
+#arrow-left
+{
+    background: url('../img/arrow_left.png') no-repeat;
+}
+#arrow-right
+{
+    background: url('../img/arrow_right.png') no-repeat;
+}
+.sowar2-arrows
+{
+    position: relative;
+    float: left;
+    cursor: pointer;
+    width: 26px;
+    height: 25px;
+}
+
+#sowar2-container
+{
+    position: relative;
+    margin: auto;
+    height: 320px;
+}
+#sowar2-wrapper
+{
+    position: relative;
+    margin: 0 0 0 -604px;
+    padding: 0;    
+}
+.sowar2-element
+{
+    float: left;
+    display: inline-block;
+    width: 720px;
+    background-color: #000000;
+    overflow: hidden;
+}
+.sowar2-element-text
+{
+    position: absolute;
+    padding: 20px 0 0 10px;
+    width: 700px;
+}
+.sowar2-element-text h1
+{
+    font-weight: bold;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.sowar2-element-text p
+{
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.sowar2-element-text .sowar2-link
+{
+    display: block;
+    text-align: right;
+    color: #00BAFF;
+    font-size: 0.938em;
+}
+.sowar2-element-image
+{
+    
+}
+.sowar2-element-image img
+{
+    width: 720px;
+    height: 320px
+}
