@@ -1,6 +1,6 @@
 name:  Sowar2
 author:  dirarko
-current:  1
+current:  v1
 category:  Widgets
 sources: ["Source/Sowar2.js"]
 tags:  [image,carousel,animation,slideshow,slider]
